@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes II Proyecto Final</title>
+
+    <!--webcam-easy.js-->
+    <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <video id="webcam" autoplay playsinline width="640" height="480"></video>
+    <canvas id="canvas" class="d-none"></canvas>
+    <audio id="snapSound" src="audio/snap.wav" preload="auto"></audio>
+    <script src="scripts/index.js"></script>
+    <button onclick="tomarFoto()">tomar foto</button>
+    <a id="download-photo" href="">descargar</a>
+    <!-- <img id="foto_tomada"src="" alt=""> -->
+</body>
+
+</html>
